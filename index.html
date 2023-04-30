@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap-reboot.min.css.map">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand">
+                <img class="img-fluid header-logo" src="assests/header logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 navbar-items">
+
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="#">Expert Sourcing</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="#">Contract Manufacturing</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link active fw-bold text-primary" aria-current="page" href="#">Buy</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" href="#">Financing</a>
+                    </li>
+
+                    <li class="nav-item dropdown ms-4">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About US
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Our Story</a></li>
+                            <li><a class="dropdown-item" href="#">How to Buy</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <div class="btn btn-outline-primary fw-bold ms-4">
+                    Register
+                </div>
+                <div class="btn btn-outline-success fw-bold ms-4">
+                    <i class="bi bi-person me-2"></i> Sign In
+                </div>
+                <h2 class="ms-2"> <i class="bi bi-basket text-success"></i></h2>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-md-12 col-12 ">
+                <div class="heading-pro d-flex ">
+                    <p class="fw-bold me-4 fs-4">Products </p>
+                    <p class="text-muted fs-4">(524 Products)</p>
+                </div>
+                <div class="row d-flex justify-content-center align-content-center">
+                    <div class="col">
+                        <div class="details-products">
+                            <p class="fw-bold">Price</p>
+                            <div class="price-info ">
+                                <div class="input-btn px-3">
+                                    <input class="form-control border-0 " type="text" placeholder="0"
+                                        aria-label="default input example">$
+                                </div>
+                                <div class=" small-line-div mx-2">
+                                    <input class="form-control border-0 " type="text" placeholder=""
+                                        aria-label="default input example">
+                                    <p class="small-line"></p>
+                                </div>
+
+
+
+                                <div class="input-btn px-3">
+                                    <input class="form-control border-0 " type="text" placeholder="6900"
+                                        aria-label="default input example">$
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details-products mt-4">
+                            <p class="fw-bold">MOQ</p>
+                            <div class="price-info ">
+                                <div class="input-btn-2 px-3">
+                                    <input class="form-control  border-0 " type="text" placeholder="2"
+                                        aria-label="default input example">$
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="details-products mt-4">
+                            <p class="fw-bold">Product Certification</p>
+                            <div class="price-info ">
+                                <div class="input-btn-2 px-3">
+                                    <input class="form-control  border-0 " type="text"
+                                        placeholder="Product Certification..." aria-label="default input example"><i
+                                        class="bi bi-search"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="check-btns pt-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    ASTM
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                <label class="form-check-label" for="flexCheckChecked1">
+                                    CE
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                                <label class="form-check-label" for="flexCheckChecked2">
+                                    Certificate of compliance
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked>
+                                <label class="form-check-label" for="flexCheckChecked3">
+                                    Certificate of Conformity
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked>
+                                <label class="form-check-label" for="flexCheckChecked4">
+                                    EN
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked>
+                                <label class="form-check-label" for="flexCheckChecked5">
+                                    EPA
+                                </label>
+                            </div>
+                        </div>
+                        <a href="#" class="text-success ">show all</a>
+                        <div class="details-products">
+                            <p>Supplier Certification</p>
+                            <div class="price-info ">
+                                <div class="input-btn-2 px-3">
+                                    <input class="form-control  border-0 " type="text"
+                                        placeholder="Supplier Certification..." aria-label="default input example"><i
+                                        class="bi bi-search"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="check-btns pt-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    DUNS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6" checked>
+                                <label class="form-check-label" for="flexCheckChecked6">
+                                    DRS
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked7" checked>
+                                <label class="form-check-label" for="flexCheckChecked7">
+                                    GMP
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked8" checked>
+                                <label class="form-check-label" for="flexCheckChecked8">
+                                    ISO 13485
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked9" checked>
+                                <label class="form-check-label" for="flexCheckChecked9">
+                                    ISO 9001
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked10">
+                                    ISO 90001:2015
+                                </label>
+                            </div>
+                        </div>
+                        <div class="details-products">
+                            <p>Manufacturer Location</p>
+                            <div class="price-info ">
+                                <div class="input-btn-2 px-3">
+                                    <input class="form-control  border-0 " type="text"
+                                        placeholder="Manufacturer Location..." aria-label="default input example"><i
+                                        class="bi bi-search"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="check-btns pt-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Australia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked11"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked11">
+                                    canada
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked12"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked12">
+                                    China
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked13"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked13">
+                                    Hong Kong S.A.R
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked14"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked14">
+                                    India
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked15"
+                                    checked>
+                                <label class="form-check-label" for="flexCheckChecked15">
+                                    Pakistan
+                                </label>
+                            </div>
+                        </div>
+                        <div class="details-products mt-5">
+                            <p>Stock Availability</p>
+
+                        </div>
+                        <div class="check-btns pt-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    <i class="bi bi-flag me-2"></i> In USA
+                                </label>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 cards-col">
+              <div class="top-heading ">
+                <p class="text-muted">Buy</p>
+                <div class="imp-note ">
+                   <p class="text-center text-light">Placing bulk ordere on BuyHive is safe & easy.</p>
+                   <p class="fw-bold text-center text-light">click to learn how it works!</p>
+                </div>
+               
+              </div>
+              <div class="row mt-5">
+                <div class="col">
+                    <div class="icons d-flex">
+                      
+                        <div class="row ms-5">
+                            <div class=" col-lg-5 col-md-12 col-12 icons-row d-flex" >
+                                <h1 class="me-5"><i class="bi bi-grid-3x2-gap-fill"></i></h1>
+                                <h1 class=""><i class="bi bi-signpost"></i><h1>
+                                    
+                                    
+                                
+                                
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-12 d-flex">
+                                <div class="dropdown me-2 ">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Relevence
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Relevance</a></li>
+                                      <li><a class="dropdown-item" href="#">Latest</a></li>
+                                      <li><a class="dropdown-item" href="#">Price low to high</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="arrow-bg ">
+                                    <i class="bi bi-chevron-left"></i>
+                                </div>
+                                <div class="text-bg ms-1 me-1">
+                            2
+                                </div>
+                                <div class="arrow-bg">
+                                    <i class="bi bi-chevron-right"></i>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 right-con">
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col-lg-4 col-md-6 col-12 card-row">
+                      <div class="card border-0">
+                        <img src="assests/img-1.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">Rolhei 75% Ethanol  W...</p>
+                          <p class="text-muted">MOQ: 1,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-2.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">ARCTICA Washable </p>
+                          <p class="text-muted">MOQ: 500 Pieces</p>
+                          <p class="fw-bold">$ 11.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-3.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+             
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0"  style="display: flex;justify-content: center;align-items: center;">
+                        <img src="assests/img-4.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">Rolhei 75% Ethanol  W...</p>
+                          <p class="text-muted">MOQ: 1,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-5.png" class="card-img-top" alt="..." style="height: 220px;">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">ARCTICA Washable </p>
+                          <p class="text-muted">MOQ: 500 Pieces</p>
+                          <p class="fw-bold">$ 11.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-6.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0"  style="display: flex;justify-content: center;align-items: center;">
+                        <img src="assests/img-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">Rolhei 75% Ethanol  W...</p>
+                          <p class="text-muted">MOQ: 1,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-8.png" class="card-img-top" alt="..." style="height: 220px;">
+                        <div class="card-body ">
+                          
+                          <p class="card-text">ARCTICA Washable </p>
+                          <p class="text-muted">MOQ: 500 Pieces</p>
+                          <p class="fw-bold">$ 11.40 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-10.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-11.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-12.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-14.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-19.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-20.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                      <div class="card border-0 d-flex justify-content-center align-items-center">
+                        <img src="assests/img-21.png" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                          
+                          <p class="card-text"> ECO Biodegradable W</p>
+                          <p class="text-muted">MOQ: 9600,512 Pieces</p>
+                          <p class="fw-bold">$ 1.40 -$ 0,90 / Piece</p>
+                           <div class="btn btn-outline-success fw-bold ">
+                            Add TO Cart
+                            <img class="img-fluid ms-2" src="assests/about/icons8-plus-16.png " alt="">
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                    
+                
+                 
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
